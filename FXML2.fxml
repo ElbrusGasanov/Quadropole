@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="540.0" prefWidth="560.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.сontroller2">
+   <children>
+      <Button fx:id="ExportButton" layoutX="400.0" layoutY="510.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Экспорт" />
+      <Button fx:id="Graph" layoutX="470.0" layoutY="510.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Диаграмма" />
+      <TextArea fx:id="textArea" layoutX="5.0" layoutY="6.0" prefHeight="500.0" prefWidth="550.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>
